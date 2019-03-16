@@ -1,0 +1,17 @@
+<launch>
+
+   <node name="robot_1"     pkg="service_demo"
+   type="service"            />
+
+
+   <node name="robot_2"     pkg="service_demo"
+   type="service2"           />
+
+
+
+   <node name="node_mini_factory_server"     pkg="service_demo"
+   type="client"           />
+
+
+
+</launch>
